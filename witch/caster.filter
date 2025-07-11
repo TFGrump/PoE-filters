@@ -1,0 +1,156 @@
+Show
+    Rarity Unique
+
+Show
+    Sockets == 6
+    SetBorderColor 0 0 0
+    SetFontSize 32
+
+Show
+    Sockets >= 3RGB
+    LinkedSockets >= 3
+    SetBorderColor 0 0 192
+    SetTextColor 255 0 0
+    SetBackgroundColor 0 99 0
+    SetFontSize 32
+
+Show
+    Class "Currency" "Map" "Gold" "Divination card" "Contract" "Blueprint" "Labyrinth Trinkets"
+    SetFontSize 38
+
+Show
+    Class "Body Armour" "Gloves" "Helmet" "Boots" "Belt" "Amulet" "Ring" "Wand"
+    SetFontSize 45
+Continue
+
+# Weapons
+Hide
+    Class "One Hand" "Bow" "Quiver" "Sceptre" "Claw" "Dagger" "Two Hand" "Staff" "Wand"
+
+## Wand
+Show
+    BaseType "Tornado Wand" "Prophecy Wand" "Profane Wand" "Opal Wand" "Demon's Horn"
+    Rarity Magic Rare
+Continue
+Show
+    BaseType "Tornado Wand" "Prophecy Wand" "Profane Wand" "Opal Wand" "Demon's Horn"
+    Sockets >= 3BBB
+    LinkedSockets == 3
+    SetBorderColor 0 0 192
+    SetBackgroundColor 100 200 255 90
+
+## Shield
+Hide
+    Class "Shield"
+Show
+    BaseType "Harmonic Spirit Shield" "Titanium Spirit Shield" "Vaal Spirit Shield"
+    Rarity Magic Rare
+
+# Armour
+## Body Armour
+Hide
+    Class "Body Armour"
+Show
+    BaseType "Vaal Regalia" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Occultist's Vestment" "Widowsilk Robe"
+    Rarity Normal Magic Rare
+Continue
+Show
+    BaseType "Vaal Regalia" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia" "Occultist's Vestment" "Widowsilk Robe"
+    Sockets >= 3BBB
+    LinkedSockets == 3
+    SetBorderColor 0 0 192
+    SetBackgroundColor 100 200 255 90
+    
+## Gloves
+Hide
+    Class "Gloves"
+Show
+    BaseType "Sorcerer Gloves" "Fingerless Silk Gloves" "Nexus Gloves" "Warlock Gloves"
+    Rarity Magic Rare
+Continue
+Show
+    BaseType "Sorcerer Gloves" "Fingerless Silk Gloves" "Nexus Gloves" "Warlock Gloves"
+    Sockets >= 3BBB
+    LinkedSockets == 3
+    SetBorderColor 0 0 192
+    SetBackgroundColor 100 200 255 90
+
+## Helmets
+Hide
+    Class "Helmet"
+Show
+    BaseType "Hubris Circlet" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Blizzard Crown"
+    Rarity Magic Rare
+Continue
+Show
+    BaseType "Hubris Circlet" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet" "Blizzard Crown"
+    Sockets >= 3BBB
+    LinkedSockets == 3
+    SetBorderColor 0 0 192
+    SetBackgroundColor 100 200 255 90
+
+## Boots
+Hide
+    Class "Boots"
+Show
+    BaseType "Sorcerer Boots" "Sage Slippers" "Dreamquest Slippers" "Warlock Boots"
+    Sockets >= 3BBB
+    LinkedSockets == 3
+    SetBorderColor 0 0 192
+    SetBackgroundColor 100 200 255 90
+Show
+    BaseType "Sorcerer Boots" "Sage Slippers" "Dreamquest Slippers" "Warlock Boots"
+
+## Belts
+Hide
+    Class "Belt"
+Hide
+    BaseType "Chain Belt" "Crystal Belt"
+    Rarity Normal
+Show
+    BaseType "Chain Belt" "Crystal Belt"
+
+## Flasks
+Hide
+    Class "Flask"
+    Rarity Normal Magic
+
+Show
+    Class "Flask"
+    Quality >= 5
+
+### Health
+Show
+    BaseType "Divine Life Flask" "Eternal Life Flask"
+    Rarity Magic
+
+## Amulets & Rings
+Hide
+    BaseType "Bone Ring"
+Show
+    Class "Amulet" "Ring"
+    SetBackgroundColor 255 213 0 90
+    SetTextColor 255 255 119
+    SetBorderColor 255 170 0
+    SetFontSize 45
+
+# Jewels
+Show
+    Class "Jewel"
+    SetFontSize 45
+    SetBorderColor 255 0 0
+
+# Gems
+Hide
+    Class Gem
+    Quality < 1
+Show
+    Class "Skill Gem"
+    SetBorderColor 0 255 0
+Show
+    Class "Support Gem"
+    SetBorderColor 0 0 255
+
+# For items I still want to see, but not wanting right now    
+Show
+    SetFontSize 18

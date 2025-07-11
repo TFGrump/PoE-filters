@@ -1,0 +1,287 @@
+Show
+    Rarity Unique
+
+Show
+    Sockets == 6
+    SetBorderColor 0 0 0
+    SetFontSize 32
+
+Show
+    Sockets >= 3RGB
+    LinkedSockets >= 3
+    SetBorderColor 0 0 192
+    SetTextColor 255 0 0
+    SetBackgroundColor 0 99 0
+    SetFontSize 32
+
+Show
+    Class "Currency" "Map" "Gold" "Divination card" "Contract" "Blueprint"
+    SetFontSize 32
+
+Show
+    Class "Amulet" "Ring"
+    Rarity Rare
+Continue
+Show
+    Class "Body Armour" "Gloves" "Helmet" "Boots" "Belt" "Amulet" "Ring" "Wand"
+    SetFontSize 45
+Continue
+
+# Weapons
+Hide
+    Class "One Hand" "Bow" "Quiver" "Sceptre" "Claw" "Dagger" "Two Hand" "Staff"
+Hide
+    Class "Flask"
+    BaseType "Tincture"
+
+# Wand
+Show
+    BaseType "Calling Wand"
+    ItemLevel < 50
+Show
+    BaseType "Convening Wand"
+    ItemLevel < 72
+Show
+    BaseType "Convoking Wand"
+
+# Shield
+Show
+    BaseType "Bone Spirit Shield"
+    ItemLevel < 41
+Show
+    BaseType "Ivory Spirit Shield"
+    ItemLevel < 59
+Show
+    BaseType "Fossilised Spirit Shield"
+
+# Armour
+## Body Armour
+Show # Act 1
+    BaseType "Simple Robe"
+    ItemLevel < 11
+Show # Act 2
+    BaseType "Silken Vest" "Scholar's Robe"
+    ItemLevel < 25
+Show # Act 3
+    BaseType "Silken Garb" "Mage's Vestment"
+    ItemLevel < 32
+Show # Act 4
+    BaseType "Silk Robe" "Cabalist Regalia" "Sage's Robe"
+    ItemLevel < 41
+Show # Act 5
+    BaseType "Silken Wrap"
+    ItemLevel < 45
+Show # Act 6
+    BaseType "Conjurer's Vestment" "Spidersilk Robe"
+    ItemLevel < 53
+Show # Act 7
+    BaseType "Destroyer Regalia"
+    ItemLevel < 54
+Show # Act 8
+    BaseType "Savant's Robe" "Necromancer Silks"
+    ItemLevel < 62
+Show # Act 9
+    BaseType "Occultist's Vestment"
+    ItemLevel < 65
+Show # Act 10
+    BaseType "Widowsilk Robe"
+    ItemLevel < 68
+Show # Endgame
+    BaseType "Vaal Regalia" "Arcane Vestment" "Nightweave Robe" "Twilight Regalia"
+    
+## Gloves
+Show # Act 1
+    BaseType "Wool Gloves"
+    ItemLevel < 10
+Show # Act 2
+    BaseType "Leyline Gloves" "Velvet Gloves"
+    ItemLevel < 25
+Show # Act 3
+    BaseType "Silk Gloves"
+    ItemLevel < 36
+Show # Act 4
+    BaseType "Embroidered Gloves" "Aetherwind Gloves" 
+    ItemLevel < 41
+Show # Act 5
+    BaseType "Satin Gloves"
+    ItemLevel < 47
+Show # Act 6 - 7
+    BaseType "Samite Gloves"
+    ItemLevel < 55
+Show # Act 8
+    BaseType "Conjurer Gloves"
+    ItemLevel < 60
+Show # Act 9
+    BaseType "Arcanist Gloves"
+    ItemLevel < 69
+Show # Endgame
+    BaseType "Sorcerer Gloves" "Fingerless Silk Gloves" "Nexus Gloves" "Warlock Gloves"
+
+## Helmets
+Show # Act 1
+    BaseType "Vine Circlet" "Iron Circlet"
+    ItemLevel < 17
+Show # Act 2
+    BaseType "Torture Cage"
+    ItemLevel < 26
+Show # Act 3
+    BaseType "Tribal Circlet"
+    ItemLevel < 34
+Show # Act 4
+    BaseType "Bone Circlet" "Lunaris Circlet"
+    ItemLevel < 48
+Show # Act 5 - 7
+    BaseType "Steel Circlet"
+    ItemLevel < 54
+Show # Act 8 - 9
+    BaseType "Necromancer Circlet" "Solaris Circlet"
+    ItemLevel < 65
+Show # Act 10
+    BaseType "Mind Cage"
+    ItemLevel < 69
+Show # Endgame
+    BaseType "Hubris Circlet" "Moonlit Circlet" "Sunfire Circlet" "Lich's Circlet"
+
+## Boots
+Show # Act 1
+    BaseType "Wool Shoes" "Velvet Slippers"
+    ItemLevel < 20
+Show # Act 2
+    BaseType "Duskwalk Slippers"
+    ItemLevel < 22
+Show # Act 3
+    BaseType "Silk Gloves"
+    ItemLevel < 30
+Show # Act 4
+    BaseType "Scholar Boots" "Satin Slippers"
+    ItemLevel < 44
+Show # Act 5 -6
+    BaseType "Samite Slippers"
+    ItemLevel < 50
+Show # Act 7 - 8
+    BaseType "Nightwind Slippers" "Conjurer Boots"
+    ItemLevel < 60
+Show # Act 9
+    BaseType "Arcanist Slippers"
+    ItemLevel < 67
+Show # Endgame
+    BaseType "Sorcerer Boots" "Sage Slippers" "Dreamquest Slippers" "Warlock Boots"
+
+## Belts
+Show
+    BaseType "Chain Belt" "Crystal Belt"
+
+## Flasks
+### Health
+Show
+    BaseType "Small Life Flask"
+    AreaLevel < 3
+Show
+    BaseType "Medium Life Flask"
+    AreaLevel < 6
+Show
+    BaseType "Large Life Flask"
+    AreaLevel < 12
+Show
+    BaseType "Greater Life Flask"
+    AreaLevel < 18
+Show
+    BaseType "Grand Life Flask"
+    AreaLevel < 24
+Show
+    BaseType "Giant Life Flask"
+    AreaLevel < 30
+Show
+    BaseType "Colossal Life Flask"
+    AreaLevel < 36
+Show
+    BaseType "Sacred Life Flask"
+    AreaLevel < 42
+Show
+    BaseType "Hallowed Life Flask"
+    AreaLevel < 50
+Show
+    BaseType "Sanctified Life Flask"
+    AreaLevel < 60
+Show
+    BaseType "Divine Life Flask" "Eternal Life Flask"
+
+### Mana
+Show
+    BaseType "Small Mana Flask"
+    AreaLevel < 3
+Show
+    BaseType "Medium Mana Flask"
+    AreaLevel < 6
+Show
+    BaseType "Large Mana Flask"
+    AreaLevel < 12
+Show
+    BaseType "Greater Mana Flask"
+    AreaLevel < 18
+Show
+    BaseType "Grand Mana Flask"
+    AreaLevel < 24
+Show
+    BaseType "Giant Mana Flask"
+    AreaLevel < 30
+Show
+    BaseType "Colossal Mana Flask"
+    AreaLevel < 36
+Show
+    BaseType "Sacred Mana Flask"
+    AreaLevel < 42
+Show
+    BaseType "Hallowed Mana Flask"
+    AreaLevel < 50
+Show
+    BaseType "Sanctified Mana Flask"
+    AreaLevel < 60
+Show
+    BaseType "Divine Mana Flask"
+    AreaLevel < 65
+Show
+    BaseType "Eternal Mana Flask"
+
+## Amulets & Rings
+Hide
+    Class Amulet Ring
+    Rarity Magic
+Hide
+    Class Amulet Ring
+    BaseType "Bone Ring"
+    Rarity Normal
+Show
+    Class Amulet Ring
+    Rarity Rare
+    SetBackgroundColor 255 213 0 90
+    SetTextColor 255 255 119
+    SetBorderColor 255 170 0
+    SetFontSize 45
+Show
+    Class Amulet Ring
+    Rarity Normal
+    SetBorderColor 127 127 127
+    SetBackgroundColor 255 255 255 90
+    SetFontSize 45
+
+# Jewels
+Show
+    Class "Jewel"
+    SetFontSize 45
+    SetBorderColor 255 0 0
+
+# Gems
+Hide
+    Class Gem
+    Quality < 1
+Show
+    Class "Skill Gem"
+    SetBorderColor 0 255 0
+Show
+    Class "Support Gem"
+    SetBorderColor 0 0 255
+
+# For items I still want to see, but not wanting right now    
+Show
+    SetFontSize 18

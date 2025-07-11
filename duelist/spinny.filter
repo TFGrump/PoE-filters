@@ -1,0 +1,287 @@
+Show
+    Rarity Unique
+
+Show
+    Sockets == 6
+    SetBorderColor 0 0 0
+    SetFontSize 32
+
+Show
+    SocketGroup 3RGB
+    SetBorderColor 0 0 192
+    SetTextColor 255 0 0
+    SetBackgroundColor 0 99 0
+    SetFontSize 32
+
+Show
+    Class "Currency" "Map" "Gold" "Divination card" "Contract"
+    SetFontSize 32
+
+# Weapons
+Hide
+    Class "Wand" "One Hand" "Bow" "Quiver" "Sceptre" "Claw" "Dagger" "Shield" "Two Hand Mace" "Two Hand Sword"
+Hide 
+    Class "Staff"
+    DropLevel < 60
+Show
+    BaseType "Ezomyte Staff" "Fleshripper"
+    SetFontSize 45
+    # ItemLevel >= 80
+    SetFontSize 45
+Show
+    Class "One Hand Axe"
+    BaseType "Siege Axe"
+    SetFontSize 45
+    SetBorderColor 255 136 0
+    SetBackgroundColor 255 213 0
+    SetTextColor 0 0 0
+Hide
+    Class "Two Hand Axe"
+    # DropLevel < 70
+Show
+    Class "Two Hand Axe"
+    Rarity Normal Rare
+    DropLevel >= 65
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    SetFontSize 45
+
+# Armour
+## Body Armour
+Hide
+    Class "Body Armour"
+Show
+    Class "Body Armour"
+    ItemLevel >= 80
+Continue
+Show
+    Class "Body Armour"
+    Rarity Rare
+    BaseType "Plate" "Astral Plate"
+    DropLevel >= 65
+    SetFontSize 45
+Continue
+Show
+    Class "Body Armour"
+    Rarity Rare
+    BaseType "Plate"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0
+    SetFontSize 45
+Show
+    Class "Body Armour"
+    Rarity Rare
+    BaseType "Astral Plate"
+    SetBackgroundColor 86 0 0
+    SetFontSize 45
+# Show
+#     Class "Body Armour"
+#     Rarity Rare
+#     BaseType "Plate"
+#     SetFontSize 45
+Show
+    Class "Body Armour"
+    Rarity Normal
+    BaseType "Plate"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0 90
+    SetTextColor 127 127 127
+    SetFontSize 45
+Show
+    Class "Body Armour"
+    Rarity Normal
+    BaseType "Astral Plate"
+    SetBackgroundColor 86 0 0
+    SetTextColor 127 127 127
+    SetFontSize 45
+Show
+    Class "Body Armour"
+    Rarity Normal
+    BaseType "Plate"
+    SetTextColor 127 127 127
+    SetFontSize 45
+
+## Gloves
+Hide
+    Class Gloves
+    DropLevel < 65
+Show
+    Class Gloves
+    Rarity Rare
+    BaseType "Titan Gauntlets" "Spiked Gloves" "Thwarting Gauntlets" "Precursor Gauntlets" "Leviathan Gauntlets"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0
+    SetFontSize 45
+Show
+    Class Gloves
+    Rarity Rare
+    BaseType "Titan Gauntlets" "Spiked Gloves" "Thwarting Gauntlets" "Precursor Gauntlets" "Leviathan Gauntlets"
+    SetFontSize 45
+Show
+    Class Gloves
+    Rarity Normal
+    BaseType "Titan Gauntlets" "Spiked Gloves" "Thwarting Gauntlets" "Precursor Gauntlets" "Leviathan Gauntlets"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0
+    SetTextColor 127 127 127
+    SetFontSize 45
+Show
+    Class Gloves
+    Rarity Normal
+    BaseType "Titan Gauntlets" "Spiked Gloves" "Thwarting Gauntlets" "Precursor Gauntlets" "Leviathan Gauntlets"
+    SetFontSize 45
+
+## Helmets
+Hide
+    Class Helmet
+    DropLevel < 65
+Show
+    Class Helmet
+    Rarity Rare
+    BaseType "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0
+    SetFontSize 45
+Show
+    Class Helmet
+    Rarity Rare
+    BaseType "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet"
+    SetFontSize 45
+Show
+    Class Helmet
+    Rarity Normal
+    BaseType "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0 90
+    SetTextColor 127 127 127
+    SetFontSize 45
+Show
+    Class Helmet
+    Rarity Normal
+    BaseType "General's Helmet" "Conqueror's Helmet" "Giantslayer Helmet"
+    SetFontSize 45
+
+## Boots
+Hide
+    Class Boots
+    DropLevel < 65
+Show
+    Class Boots
+    Rarity Rare
+    BaseType "Titan Greaves" "Precursor Greaves" "Brimstone Treads" "Leviathan Greaves"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0
+    SetFontSize 45
+Show
+    Class Boots
+    Rarity Rare
+    BaseType "Titan Greaves" "Precursor Greaves" "Brimstone Treads" "Leviathan Greaves"
+    SetFontSize 45
+Show
+    Class Boots
+    Rarity Normal
+    BaseType "Titan Greaves" "Precursor Greaves" "Brimstone Treads" "Leviathan Greaves"
+    Sockets >= 4GRRR
+    Sockets >= 4RRRR
+    LinkedSockets >= 4
+    SetBorderColor 150 0 0
+    SetBackgroundColor 86 0 0
+    SetTextColor 127 127 127
+    SetFontSize 45
+Show
+    Class Boots
+    Rarity Normal
+    BaseType "Titan Greaves" "Precursor Greaves" "Brimstone Treads" "Leviathan Greaves"
+    SetFontSize 45
+
+## Belts
+Show
+    Class Belt
+    BaseType "Rustic Sash" "Leather Belt" "Vanguard Belt"
+    Rarity Normal Rare
+    SetFontSize 45
+Hide
+    Class Belt
+
+## Flasks
+Show
+    Class Flask
+    Quality > 0
+    SetFontSize 45
+    SetBackgroundColor 255 255 255 90
+    SetBorderColor 0 0 0
+# Show
+#     Class Flask
+#     BaseType "Divine Life Flask"
+#     Rarity Magic
+#     SetFontSize 45
+# Show
+#     Class "Utility Flask"
+#     SetFontSize 45
+Hide
+    Class Flask
+    Rarity Normal Magic
+
+## Amulets & Rings
+Hide
+    Class Amulet Ring
+    Rarity Magic
+Hide
+    Class Amulet Ring
+    BaseType "Bone Ring"
+    Rarity Normal
+Show
+    Class Amulet Ring
+    Rarity Rare
+    SetBackgroundColor 255 213 0 90
+    SetTextColor 255 255 119
+    SetBorderColor 255 170 0
+    SetFontSize 45
+Show
+    Class Amulet Ring
+    Rarity Normal
+    SetBorderColor 127 127 127
+    SetBackgroundColor 255 255 255 90
+    SetFontSize 45
+
+# Jewels
+Show
+    Class "Jewel"
+    SetFontSize 45
+    SetBorderColor 255 0 0
+
+# Gems
+Hide
+    Class Gem
+    Quality < 1
+Show
+    Class "Skill Gem"
+    SetBorderColor 0 255 0
+Show
+    Class "Support Gem"
+    SetBorderColor 0 0 255
+
+# For items I still want to see, but not wanting right now    
+Show
+    SetFontSize 18
